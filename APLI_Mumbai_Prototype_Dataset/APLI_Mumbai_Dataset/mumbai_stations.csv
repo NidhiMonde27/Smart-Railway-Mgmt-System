@@ -1,0 +1,202 @@
+station_id,station_name,transport_type,network_line,latitude,longitude,distance_from_origin_km,sequence
+w1,Churchgate,Local Train,Western Line,18.9322,72.8264,0,1
+w2,Marine Lines,Local Train,Western Line,18.9467,72.8233,2,2
+w3,Charni Road,Local Train,Western Line,18.9534,72.8196,3,3
+w4,Grant Road,Local Train,Western Line,18.9629,72.8151,4,4
+w5,Mumbai Central,Local Train,Western Line,18.9685,72.8196,5,5
+w6,Mahalaxmi,Local Train,Western Line,18.9825,72.8231,6,6
+w7,Lower Parel,Local Train,Western Line,18.9961,72.8302,8,7
+w8,Prabhadevi,Local Train,Western Line,19.0079,72.8311,9,8
+w9,Dadar,Local Train,Western Line,19.0176,72.8432,11,9
+w10,Matunga Road,Local Train,Western Line,19.0284,72.8458,12,10
+w11,Mahim Junction,Local Train,Western Line,19.0392,72.8403,13,11
+w12,Bandra,Local Train,Western Line,19.0544,72.8403,15,12
+w13,Khar Road,Local Train,Western Line,19.0697,72.8372,17,13
+w14,Santacruz,Local Train,Western Line,19.0811,72.8408,18,14
+w15,Vile Parle,Local Train,Western Line,19.0988,72.8478,20,15
+w16,Andheri,Local Train,Western Line,19.1197,72.8464,22,16
+w17,Jogeshwari,Local Train,Western Line,19.1357,72.8489,24,17
+w18,Ram Mandir,Local Train,Western Line,19.1486,72.8416,25,18
+w19,Goregaon,Local Train,Western Line,19.1544,72.8489,27,19
+w20,Malad,Local Train,Western Line,19.1868,72.8489,30,20
+w21,Kandivali,Local Train,Western Line,19.2041,72.85,32,21
+w22,Borivali,Local Train,Western Line,19.231,72.8565,34,22
+w23,Dahisar,Local Train,Western Line,19.2561,72.8627,37,23
+w24,Mira Road,Local Train,Western Line,19.2806,72.8691,40,24
+w25,Bhayandar,Local Train,Western Line,19.3017,72.8526,44,25
+w26,Naigaon,Local Train,Western Line,19.349,72.8567,48,26
+w27,Vasai Road,Local Train,Western Line,19.3718,72.8231,52,27
+w28,Nallasopara,Local Train,Western Line,19.4224,72.8199,56,28
+w29,Virar,Local Train,Western Line,19.4559,72.8111,60,29
+w30,Vaitarna,Local Train,Western Line,19.5012,72.8341,69,30
+w31,Saphale,Local Train,Western Line,19.5781,72.8123,76,31
+w32,Kelve Road,Local Train,Western Line,19.6241,72.7912,83,32
+w33,Palghar,Local Train,Western Line,19.6969,72.7654,91,33
+w34,Umroli,Local Train,Western Line,19.7423,72.7531,98,34
+w35,Boisar,Local Train,Western Line,19.8012,72.7543,104,35
+w36,Vangaon,Local Train,Western Line,19.8821,72.7412,114,36
+w37,Dahanu Road,Local Train,Western Line,19.9712,72.7312,124,37
+c1,CSMT,Local Train,Central Line,18.9398,72.8355,0,1
+c2,Masjid,Local Train,Central Line,18.9475,72.8327,2,2
+c3,Sandhurst Road,Local Train,Central Line,18.9525,72.8382,3,3
+c4,Byculla,Local Train,Central Line,18.9779,72.8336,5,4
+c5,Chinchpokli,Local Train,Central Line,18.9906,72.8328,6,5
+c6,Currey Road,Local Train,Central Line,19.0008,72.8331,7,6
+c7,Parel,Local Train,Central Line,19.0103,72.8386,8,7
+c8,Dadar,Local Train,Central Line,19.0176,72.8432,9,8
+c9,Matunga,Local Train,Central Line,19.0282,72.8489,11,9
+c10,King Circle,Local Train,Central Line,19.0297,72.8564,12,10
+c11,Sion,Local Train,Central Line,19.0433,72.8615,13,11
+c12,Kurla,Local Train,Central Line,19.0728,72.8826,16,12
+c13,Vidyavihar,Local Train,Central Line,19.0825,72.8974,18,13
+c14,Ghatkopar,Local Train,Central Line,19.0865,72.9081,20,14
+c15,Vikhroli,Local Train,Central Line,19.1059,72.9281,23,15
+c16,Kanjurmarg,Local Train,Central Line,19.1297,72.9314,25,16
+c17,Bhandup,Local Train,Central Line,19.1438,72.9375,26,17
+c18,Nahur,Local Train,Central Line,19.1516,72.9438,29,18
+c19,Mulund,Local Train,Central Line,19.1722,72.9561,31,19
+c20,Thane,Local Train,Central Line,19.1872,72.9781,34,20
+c21,Kalwa,Local Train,Central Line,19.1889,73.0024,36,21
+c22,Mumbra,Local Train,Central Line,19.1706,73.0308,40,22
+c23,Diva,Local Train,Central Line,19.2008,73.0747,43,23
+c24,Dombivli,Local Train,Central Line,19.2183,73.0869,49,24
+c25,Thakurli,Local Train,Central Line,19.2058,73.1169,50,25
+c26,Kalyan,Local Train,Central Line,19.2403,73.1356,54,26
+c27,Kopar,Local Train,Central Line,19.2098,73.0812,46,27
+c28,Vitthalwadi,Local Train,Central Line,19.2274,73.1465,57,28
+c29,Ulhasnagar,Local Train,Central Line,19.2198,73.1587,59,29
+c30,Ambernath,Local Train,Central Line,19.1994,73.1952,62,30
+c31,Chikhloli,Local Train,Central Line,19.1821,73.2112,65,31
+c32,Badlapur,Local Train,Central Line,19.1661,73.2341,68,32
+c33,Vangani,Local Train,Central Line,19.1124,73.2687,78,33
+c34,Shelu,Local Train,Central Line,19.0821,73.2843,82,34
+c35,Neral Junction,Local Train,Central Line,19.0341,73.3187,87,35
+c36,Bhivpuri Road,Local Train,Central Line,18.9892,73.3289,93,36
+c37,Karjat,Local Train,Central Line,18.9102,73.3281,100,37
+c38,Palasdari,Local Train,Central Line,18.8821,73.3321,103,38
+c39,Kelavli,Local Train,Central Line,18.8432,73.3421,108,39
+c40,Dolavli,Local Train,Central Line,18.8123,73.3456,111,40
+c41,Lowjee,Local Train,Central Line,18.7912,73.3489,114,41
+c42,Khopoli,Local Train,Central Line,18.7842,73.3498,116,42
+c43,Shahad,Local Train,Central Line,19.2541,73.1543,57,43
+c44,Ambivli,Local Train,Central Line,19.2712,73.1678,60,44
+c45,Titwala,Local Train,Central Line,19.2998,73.2087,67,45
+c46,Khadavli,Local Train,Central Line,19.3456,73.2432,75,46
+c47,Vasind,Local Train,Central Line,19.4087,73.2843,84,47
+c48,Asangaon,Local Train,Central Line,19.4421,73.3123,89,48
+c49,Atgaon,Local Train,Central Line,19.5212,73.3891,99,49
+c50,Tanshet,Local Train,Central Line,19.5643,73.4123,105,50
+c51,Khardi,Local Train,Central Line,19.5891,73.4412,109,51
+c52,Umbermali,Local Train,Central Line,19.6412,73.4891,116,52
+c53,Kasara,Local Train,Central Line,19.6541,73.4912,121,53
+h1,CSMT,Local Train,Harbour Line,18.9398,72.8355,0,1
+h2,Masjid,Local Train,Harbour Line,18.9475,72.8327,2,2
+h3,Sandhurst Road,Local Train,Harbour Line,18.9525,72.8382,3,3
+h4,Dockyard Road,Local Train,Harbour Line,18.9661,72.8446,4,4
+h5,Reay Road,Local Train,Harbour Line,18.9739,72.8489,5,5
+h6,Cotton Green,Local Train,Harbour Line,18.9867,72.8528,6,6
+h7,Sewri,Local Train,Harbour Line,19.0006,72.8564,8,7
+h8,Wadala Road,Local Train,Harbour Line,19.0147,72.8603,10,8
+h9,GTB Nagar,Local Train,Harbour Line,19.0308,72.8881,12,9
+h10,Chunabhatti,Local Train,Harbour Line,19.0497,72.8764,14,10
+h11,Kurla,Local Train,Harbour Line,19.0728,72.8826,16,11
+h12,Tilak Nagar,Local Train,Harbour Line,19.0708,72.8936,17,12
+h13,Chembur,Local Train,Harbour Line,19.0622,72.9019,18,13
+h14,Govandi,Local Train,Harbour Line,19.0544,72.9114,19,14
+h15,Mankhurd,Local Train,Harbour Line,19.0433,72.9286,22,15
+h16,Vashi,Local Train,Harbour Line,19.0757,72.9989,29,16
+h17,Sanpada,Local Train,Harbour Line,19.0668,73.0089,31,17
+h18,Juinagar,Local Train,Harbour Line,19.0542,73.0336,32,18
+h19,Nerul,Local Train,Harbour Line,19.0331,73.0197,35,19
+h20,Seawood,Local Train,Harbour Line,19.0086,73.0094,37,20
+h21,Belapur,Local Train,Harbour Line,19.0178,73.0369,39,21
+h22,Kharghar,Local Train,Harbour Line,19.0489,73.0661,41,22
+h23,Khandeshwar,Local Train,Harbour Line,19.0056,73.0681,46,23
+h24,Panvel,Local Train,Harbour Line,18.9894,73.1089,49,24
+th1,Thane,Local Train,Trans-Harbour Line,19.1872,72.9781,0,1
+th2,Digha Gaon,Local Train,Trans-Harbour Line,19.1721,72.9912,3,2
+th3,Airoli,Local Train,Trans-Harbour Line,19.1567,72.9981,6,3
+th4,Rabale,Local Train,Trans-Harbour Line,19.1389,73.0045,9,4
+th5,Ghansoli,Local Train,Trans-Harbour Line,19.1212,73.0089,12,5
+th6,Koparkhairane,Local Train,Trans-Harbour Line,19.1023,73.0112,15,6
+th7,Turbhe,Local Train,Trans-Harbour Line,19.0821,73.0145,19,7
+th8,Sanpada,Local Train,Trans-Harbour Line,19.0668,73.0089,22,8
+th9,Vashi,Local Train,Trans-Harbour Line,19.0757,72.9989,24,9
+th10,Juinagar,Local Train,Trans-Harbour Line,19.0542,73.0336,25,10
+th11,Nerul,Local Train,Trans-Harbour Line,19.0331,73.0197,28,11
+th12,Seawoods-Darave,Local Train,Trans-Harbour Line,19.0086,73.0094,30,12
+th13,CBD Belapur,Local Train,Trans-Harbour Line,19.0178,73.0369,32,13
+th14,Kharghar,Local Train,Trans-Harbour Line,19.0489,73.0661,34,14
+th15,Mansarovar,Local Train,Trans-Harbour Line,19.0234,73.0671,37,15
+th16,Khandeshwar,Local Train,Trans-Harbour Line,19.0056,73.0681,39,16
+th17,Panvel,Local Train,Trans-Harbour Line,18.9894,73.1089,42,17
+m1-1,Versova,Metro,Metro Line 1,19.1314,72.8222,0,1
+m1-2,D.N. Nagar,Metro,Metro Line 1,19.1249,72.8309,1,2
+m1-3,Azad Nagar,Metro,Metro Line 1,19.1234,72.8398,2,3
+m1-4,Andheri Metro,Metro,Metro Line 1,19.1206,72.8465,3,4
+m1-5,Western Express Highway,Metro,Metro Line 1,19.1179,72.8566,4,5
+m1-6,Chakala,Metro,Metro Line 1,19.1167,72.8657,5,6
+m1-7,Airport Road,Metro,Metro Line 1,19.1139,72.8753,6,7
+m1-8,Marol Naka,Metro,Metro Line 1,19.1114,72.8837,7,8
+m1-9,Saki Naka,Metro,Metro Line 1,19.1068,72.8906,8,9
+m1-10,Asalpha,Metro,Metro Line 1,19.1009,72.8994,9,10
+m1-11,Jagruti Nagar,Metro,Metro Line 1,19.0967,72.9065,10,11
+m1-12,Ghatkopar Metro,Metro,Metro Line 1,19.0886,72.9103,11,12
+m3-1,Aarey Colony,Metro,Metro Line 3,19.1456,72.8876,0,1
+m3-2,SEEPZ,Metro,Metro Line 3,19.1389,72.8812,1,2
+m3-3,MIDC,Metro,Metro Line 3,19.1298,72.8765,2,3
+m3-4,Marol Naka M3,Metro,Metro Line 3,19.1114,72.8837,3,4
+m3-5,CSMIA T2,Metro,Metro Line 3,19.0968,72.8745,4,5
+m3-6,Sahar Road,Metro,Metro Line 3,19.1023,72.8621,5,6
+m3-7,CSMIA T1,Metro,Metro Line 3,19.0887,72.8573,6,7
+m3-8,Santacruz Metro,Metro,Metro Line 3,19.0815,72.8468,7,8
+m3-9,Vidyanagari,Metro,Metro Line 3,19.0726,72.8554,8,9
+m3-10,BKC,Metro,Metro Line 3,19.0667,72.8678,9,10
+m3-11,Dharavi,Metro,Metro Line 3,19.0435,72.8562,10,11
+m3-12,Sheetaladevi,Metro,Metro Line 3,19.0321,72.8435,11,12
+m3-13,Dadar Metro,Metro,Metro Line 3,19.0178,72.8434,12,13
+m3-14,Siddhivinayak,Metro,Metro Line 3,19.0142,72.8306,13,14
+m3-15,Worli,Metro,Metro Line 3,19.0065,72.8225,14,15
+m3-16,Acharya Atre Chowk,Metro,Metro Line 3,18.9967,72.8198,15,16
+m3-17,Science Museum,Metro,Metro Line 3,18.9885,72.8184,16,17
+m3-18,Mahalaxmi Metro,Metro,Metro Line 3,18.9822,72.8245,17,18
+m3-19,Mumbai Central Metro,Metro,Metro Line 3,18.9697,72.8192,18,19
+m3-20,Grant Road Metro,Metro,Metro Line 3,18.9625,72.8163,19,20
+m3-21,Girgaon,Metro,Metro Line 3,18.9554,72.8196,20,21
+m3-22,Kalbadevi,Metro,Metro Line 3,18.9482,72.8267,21,22
+m3-23,CSMT Metro,Metro,Metro Line 3,18.9415,72.8347,22,23
+m3-24,Hutatma Chowk,Metro,Metro Line 3,18.9328,72.8315,23,24
+m3-25,Churchgate Metro,Metro,Metro Line 3,18.9322,72.8264,24,25
+m3-26,Vidhan Bhavan,Metro,Metro Line 3,18.9265,72.8228,25,26
+m3-27,Cuffe Parade,Metro,Metro Line 3,18.9142,72.8165,26,27
+m2a-1,Dahisar East,Metro,Metro Line 2A,19.2561,72.8627,0,1
+m2a-2,Anand Nagar,Metro,Metro Line 2A,19.248,72.86,1,2
+m2a-3,Kandarpada,Metro,Metro Line 2A,19.241,72.855,3,3
+m2a-4,Mandapeshwar,Metro,Metro Line 2A,19.235,72.85,4,4
+m2a-5,Eksar,Metro,Metro Line 2A,19.228,72.846,6,5
+m2a-6,Borivali West,Metro,Metro Line 2A,19.221,72.843,7,6
+m2a-7,Pahadi Eksar,Metro,Metro Line 2A,19.213,72.841,9,7
+m2a-8,Kandivali West,Metro,Metro Line 2A,19.205,72.839,10,8
+m2a-9,Dahanukarwadi,Metro,Metro Line 2A,19.198,72.837,12,9
+m2a-10,Valnai,Metro,Metro Line 2A,19.191,72.836,13,10
+m2a-11,Malad West,Metro,Metro Line 2A,19.184,72.835,15,11
+m2a-12,Lower Malad,Metro,Metro Line 2A,19.176,72.835,16,12
+m2a-13,Pahadi Goregaon,Metro,Metro Line 2A,19.168,72.836,18,13
+m2a-14,Goregaon West,Metro,Metro Line 2A,19.16,72.837,19,14
+m2a-15,Oshiwara,Metro,Metro Line 2A,19.151,72.837,21,15
+m2a-16,Lower Oshiwara,Metro,Metro Line 2A,19.143,72.836,22,16
+m2a-17,Andheri West,Metro,Metro Line 2A,19.135,72.834,24,17
+m7-1,Dahisar East,Metro,Metro Line 7,19.2561,72.8627,0,1
+m7-2,Ovaripada,Metro,Metro Line 7,19.249,72.864,1,2
+m7-3,Rashtriya Udyan,Metro,Metro Line 7,19.238,72.864,3,3
+m7-4,Devipada,Metro,Metro Line 7,19.227,72.862,4,4
+m7-5,Magathane,Metro,Metro Line 7,19.217,72.861,6,5
+m7-6,Poisar,Metro,Metro Line 7,19.207,72.859,7,6
+m7-7,Akurli,Metro,Metro Line 7,19.198,72.857,9,7
+m7-8,Kurar,Metro,Metro Line 7,19.188,72.856,10,8
+m7-9,Dindoshi,Metro,Metro Line 7,19.178,72.855,12,9
+m7-10,Aarey,Metro,Metro Line 7,19.167,72.854,13,10
+m7-11,Goregaon East,Metro,Metro Line 7,19.157,72.853,15,11
+m7-12,Jogeshwari East,Metro,Metro Line 7,19.145,72.854,16,12
+m7-13,Mogra,Metro,Metro Line 7,19.134,72.855,18,13
+m7-14,Gundavali,Metro,Metro Line 7,19.122,72.856,19,14

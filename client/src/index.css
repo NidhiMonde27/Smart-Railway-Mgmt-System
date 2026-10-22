@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-saffron: #ff9933;
+  --color-brand-white: #ffffff;
+  --color-brand-green: #138808;
+  --color-brand-navy: #000080;
+
+  --animate-shine: shine 3s linear infinite;
+
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  @keyframes scan {
+    0% {
+      transform: translateY(0);
+      opacity: 0.5;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(280px);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes pulse-grow {
+    0%,
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+
+  --animate-fadeIn: fadeIn 0.3s ease-out;
+  --animate-pulse-grow: pulse-grow 1.5s ease-in-out infinite;
+}
+
+@layer base {
+  body {
+    background: linear-gradient(
+      180deg,
+      #ff9933 0%,
+      #ffffff 45%,
+      #ffffff 55%,
+      #138808 100%
+    );
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #1f2937;
+  }
+}
+
+@layer utilities {
+  .animate-in {
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .text-gradient-tricolor {
+    background: linear-gradient(to right, #ff9933, #000080, #138808);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: shine 3s linear infinite;
+  }
+
+  /* Soft gradient for dashboard areas */
+  .bg-tiranga-soft {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 153, 51, 0.1) 0%,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(19, 136, 8, 0.1) 100%
+    );
+  }
+}

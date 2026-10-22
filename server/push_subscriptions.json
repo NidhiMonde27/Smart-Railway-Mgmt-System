@@ -1,0 +1,27 @@
+[
+  {
+    "endpoint": "https://updates.push.services.mozilla.com/wpush/v2/gAAAAABtest",
+    "subscription": {
+      "endpoint": "https://updates.push.services.mozilla.com/wpush/v2/gAAAAABtest",
+      "keys": {
+        "p256dh": "BEl62iUYgUivxIkv69yViEuiBIa-IbtestKey",
+        "auth": "testAuthKey123"
+      }
+    },
+    "userId": "test_user_A_123",
+    "updatedAt": "2026-10-09T04:49:53.229Z"
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/dKpDg0U0ocQ:APA91bFAOT_PFBOLt431xrp7bBGlTXlEk8PsDY2VDxouZafgWWZyXfA8_GuS7ze4HJi4wbOjHKIcMFIxNtE7I1F4yZiTjuqN6WNXothwzwpRYDfL_qgmVcxdjIo4R52CTwgwlDbl4OA4",
+    "subscription": {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/dKpDg0U0ocQ:APA91bFAOT_PFBOLt431xrp7bBGlTXlEk8PsDY2VDxouZafgWWZyXfA8_GuS7ze4HJi4wbOjHKIcMFIxNtE7I1F4yZiTjuqN6WNXothwzwpRYDfL_qgmVcxdjIo4R52CTwgwlDbl4OA4",
+      "expirationTime": null,
+      "keys": {
+        "p256dh": "BFWCdj4FVBOd4VGhf6OzOC8c0kYv48v1fP8LBukoqm-7ahXopY19THN2rBrrV8-O1D9uiZ5hV8kAyrrNsPM4o7M",
+        "auth": "hEYq12ydf5-LumHRcgR1BA"
+      }
+    },
+    "userId": "user_3KQHpNW1m579UtENhpT4ysNfMW8",
+    "updatedAt": "2026-10-09T07:32:20.126Z"
+  }
+]

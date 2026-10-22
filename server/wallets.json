@@ -1,0 +1,202 @@
+{
+  "user_test1": {
+    "userId": "user_test1",
+    "balance": 500,
+    "transactions": [],
+    "updatedAt": "2026-10-06T16:45:21.650Z"
+  },
+  "user_alice": {
+    "userId": "user_alice",
+    "balance": 600,
+    "transactions": [
+      {
+        "id": "TXN_1791305396122_535",
+        "type": "DEBIT",
+        "amount": 150,
+        "balanceAfter": 600,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-06T16:49:56.122Z"
+      },
+      {
+        "id": "TXN_1791305396101_53",
+        "type": "CREDIT",
+        "amount": 250,
+        "balanceAfter": 750,
+        "description": "Wallet Top-up",
+        "timestamp": "2026-10-06T16:49:56.102Z"
+      }
+    ],
+    "updatedAt": "2026-10-06T16:49:56.122Z"
+  },
+  "user_bob": {
+    "userId": "user_bob",
+    "balance": 500,
+    "transactions": [],
+    "updatedAt": "2026-10-06T16:49:56.106Z"
+  },
+  "user_3KDbxnJKKcGC0eNAsf3woi1W5uL": {
+    "userId": "user_3KDbxnJKKcGC0eNAsf3woi1W5uL",
+    "balance": 230,
+    "transactions": [
+      {
+        "id": "TXN_1791538141970_543",
+        "type": "DEBIT",
+        "amount": 450,
+        "balanceAfter": 230,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-09T09:29:01.970Z"
+      },
+      {
+        "id": "TXN_1791522806059_41",
+        "type": "DEBIT",
+        "amount": 40,
+        "balanceAfter": 680,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-09T05:13:26.059Z"
+      },
+      {
+        "id": "TXN_1791469324572_611",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 720,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-08T14:22:04.572Z"
+      },
+      {
+        "id": "TXN_1791469287183_859",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 740,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-08T14:21:27.183Z"
+      },
+      {
+        "id": "TXN_1791469213517_974",
+        "type": "CREDIT",
+        "amount": 200,
+        "balanceAfter": 760,
+        "description": "Wallet Top-up",
+        "timestamp": "2026-10-08T14:20:13.517Z"
+      },
+      {
+        "id": "TXN_1791468797684_95",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 560,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-08T14:13:17.684Z"
+      },
+      {
+        "id": "TXN_1791458928380_627",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 580,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-08T11:28:48.381Z"
+      },
+      {
+        "id": "TXN_1791458224940_573",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 600,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-08T11:17:04.940Z"
+      },
+      {
+        "id": "TXN_1791458169240_269",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 620,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-08T11:16:09.240Z"
+      },
+      {
+        "id": "TXN_1791441792123_281",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 640,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-08T06:43:12.123Z"
+      },
+      {
+        "id": "TXN_1791312794486_668",
+        "type": "CREDIT",
+        "amount": 100,
+        "balanceAfter": 660,
+        "description": "Wallet Top-up",
+        "timestamp": "2026-10-06T18:53:14.486Z"
+      },
+      {
+        "id": "TXN_1791306803161_275",
+        "type": "DEBIT",
+        "amount": 40,
+        "balanceAfter": 560,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-06T17:13:23.161Z"
+      },
+      {
+        "id": "TXN_1791306783361_540",
+        "type": "CREDIT",
+        "amount": 100,
+        "balanceAfter": 600,
+        "description": "Wallet Top-up",
+        "timestamp": "2026-10-06T17:13:03.361Z"
+      }
+    ],
+    "updatedAt": "2026-10-09T09:29:01.971Z"
+  },
+  "user_3KCGQSy6HExMLWnSPc12jq2dcsA": {
+    "userId": "user_3KCGQSy6HExMLWnSPc12jq2dcsA",
+    "balance": 460,
+    "transactions": [
+      {
+        "id": "TXN_1792653975878_541",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 460,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-22T07:26:15.878Z"
+      },
+      {
+        "id": "TXN_1791527581667_466",
+        "type": "DEBIT",
+        "amount": 20,
+        "balanceAfter": 480,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-09T06:33:01.667Z"
+      }
+    ],
+    "updatedAt": "2026-10-22T07:26:15.878Z"
+  },
+  "user_3KQHpNW1m579UtENhpT4ysNfMW8": {
+    "userId": "user_3KQHpNW1m579UtENhpT4ysNfMW8",
+    "balance": 435,
+    "transactions": [
+      {
+        "id": "TXN_1791534152148_461",
+        "type": "CREDIT",
+        "amount": 200,
+        "balanceAfter": 435,
+        "description": "Wallet Top-up",
+        "timestamp": "2026-10-09T08:22:32.148Z"
+      },
+      {
+        "id": "TXN_1791527194771_353",
+        "type": "DEBIT",
+        "amount": 225,
+        "balanceAfter": 235,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-09T06:26:34.771Z"
+      },
+      {
+        "id": "TXN_1791527134705_955",
+        "type": "DEBIT",
+        "amount": 40,
+        "balanceAfter": 460,
+        "description": "Ticket Fare Payment",
+        "timestamp": "2026-10-09T06:25:34.705Z"
+      }
+    ],
+    "updatedAt": "2026-10-09T08:22:32.149Z"
+  }
+}
