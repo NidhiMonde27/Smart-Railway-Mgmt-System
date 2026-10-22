@@ -3,7 +3,7 @@
  * Manages service worker registration, browser permissions, and VAPID subscription dispatches
  */
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://smart-railway-mgmt-system.onrender.com/api";
 
 function urlBase64ToUint8Array(base64String) {
   const padding = '='.repeat((4 - base64String.length % 4) % 4);

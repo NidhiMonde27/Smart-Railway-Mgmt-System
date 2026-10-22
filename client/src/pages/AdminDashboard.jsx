@@ -202,12 +202,12 @@ const AdminDashboard = () => {
 
   const fetchDisruptionsAndLogs = async () => {
     try {
-      const resD = await fetch("http://localhost:5000/api/disruptions");
+      const resD = await fetch("https://smart-railway-mgmt-system.onrender.com/api/disruptions");
       if (resD.ok) {
         const data = await resD.json();
         setDisruptions(data.disruptions || []);
       }
-      const resS = await fetch("http://localhost:5000/api/disruptions/sms-logs");
+      const resS = await fetch("https://smart-railway-mgmt-system.onrender.com/api/disruptions/sms-logs");
       if (resS.ok) {
         const data = await resS.json();
         setSmsLogs(data.logs || []);
@@ -234,7 +234,7 @@ const AdminDashboard = () => {
     };
 
     try {
-      const res = await fetch("http://localhost:5000/api/admin/disruptions", {
+      const res = await fetch("https://smart-railway-mgmt-system.onrender.com/api/admin/disruptions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(testDisruption),
@@ -249,7 +249,7 @@ const AdminDashboard = () => {
 
   const handleClearDisruption = async (id) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/admin/disruptions/${id}`, {
+      const res = await fetch(`https://smart-railway-mgmt-system.onrender.com/api/admin/disruptions/${id}`, {
         method: "DELETE",
       });
       if (res.ok) {
@@ -263,7 +263,7 @@ const AdminDashboard = () => {
   const fetchTickets = async () => {
     setLoadingTickets(true);
     try {
-      const response = await fetch("http://localhost:5000/api/tickets?admin=true", {
+      const response = await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets?admin=true", {
         headers: { "x-admin": "true" },
       });
       if (response.ok) {

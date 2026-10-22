@@ -3,7 +3,7 @@
  * Coordinates real disruption detection and notification API dispatches
  */
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://smart-railway-mgmt-system.onrender.com/api";
 
 // Fallback configured disruption data in case backend is offline (starts empty under normal conditions)
 const DEFAULT_DISRUPTIONS = [];

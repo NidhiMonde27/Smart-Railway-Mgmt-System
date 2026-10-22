@@ -214,7 +214,7 @@ const CoachCrowd = () => {
     let isMounted = true;
     async function loadPeakData() {
       try {
-        const res = await fetch(`http://localhost:5000/api/peak-analysis?source=${encodeURIComponent(sourceStation)}&destination=${encodeURIComponent(destStation)}`);
+        const res = await fetch(`https://smart-railway-mgmt-system.onrender.com/api/peak-analysis?source=${encodeURIComponent(sourceStation)}&destination=${encodeURIComponent(destStation)}`);
         if (res.ok) {
           const data = await res.json();
           if (isMounted) {
@@ -303,7 +303,7 @@ const CoachCrowd = () => {
   const fetchCoachData = async (trainId) => {
     if (!trainId) return;
     try {
-      const url = `http://localhost:5000/api/coach-occupancy/${trainId}?source=${encodeURIComponent(sourceStation)}&destination=${encodeURIComponent(destStation)}&class=${encodeURIComponent(selectedClass)}`;
+      const url = `https://smart-railway-mgmt-system.onrender.com/api/coach-occupancy/${trainId}?source=${encodeURIComponent(sourceStation)}&destination=${encodeURIComponent(destStation)}&class=${encodeURIComponent(selectedClass)}`;
       const res = await fetch(url);
       if (res.ok) {
         const data = await res.json();

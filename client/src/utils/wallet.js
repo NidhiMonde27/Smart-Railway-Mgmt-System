@@ -17,7 +17,7 @@ export const getWalletBalance = async (userId) => {
     return getWalletBalanceSync(null);
   }
   try {
-    const res = await fetch(`http://localhost:5000/api/wallet/${encodeURIComponent(userId)}`);
+    const res = await fetch(`https://smart-railway-mgmt-system.onrender.com/api/wallet/${encodeURIComponent(userId)}`);
     if (res.ok) {
       const data = await res.json();
       if (typeof data.balance === "number") {
@@ -39,7 +39,7 @@ export const addMoney = async (amount, userId) => {
   const key = getStorageKey(userId);
   if (userId) {
     try {
-      const res = await fetch("http://localhost:5000/api/wallet/add-money", {
+      const res = await fetch("https://smart-railway-mgmt-system.onrender.com/api/wallet/add-money", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId, amount: numAmount }),
@@ -71,7 +71,7 @@ export const deductMoney = async (amount, userId) => {
   const key = getStorageKey(userId);
   if (userId) {
     try {
-      const res = await fetch("http://localhost:5000/api/wallet/deduct-money", {
+      const res = await fetch("https://smart-railway-mgmt-system.onrender.com/api/wallet/deduct-money", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId, amount: numAmount }),

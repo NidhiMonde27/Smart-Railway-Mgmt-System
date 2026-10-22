@@ -39,7 +39,7 @@ async function runTransHarbourAudit() {
       status: "Active",
     };
 
-    const res = await fetch("http://localhost:5000/api/tickets", {
+    const res = await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(ticketData),
@@ -49,7 +49,7 @@ async function runTransHarbourAudit() {
       console.log(`  ✓ Ticket generated successfully: ${ticketData.ticket_id}`);
       
       // Fetch and verify ticket persistence
-      const fetchRes = await fetch(`http://localhost:5000/api/tickets/${ticketData.ticket_id}`);
+      const fetchRes = await fetch(`https://smart-railway-mgmt-system.onrender.com/api/tickets/${ticketData.ticket_id}`);
       if (fetchRes.ok) {
         const fetched = await fetchRes.json();
         console.log(`  ✓ Verified database record: ${fetched.source} ➔ ${fetched.destination} (Via: ${fetched.via})`);

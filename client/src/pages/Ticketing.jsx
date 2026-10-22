@@ -547,7 +547,7 @@ const Ticketing = () => {
         segments: selTrain ? selTrain.segments || [] : [],
       };
 
-      await fetch("http://localhost:5000/api/tickets", {
+      await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(ticketData),
@@ -627,7 +627,7 @@ const Ticketing = () => {
         status: "Active",
       };
 
-      await fetch("http://localhost:5000/api/tickets", {
+      await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(ticketData),
@@ -659,7 +659,7 @@ const Ticketing = () => {
 
     try {
       // Check if ticket with UTS number already exists
-      const existingRes = await fetch("http://localhost:5000/api/tickets");
+      const existingRes = await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets");
       if (existingRes.ok) {
         const existingList = await existingRes.json();
         const duplicate = existingList.find(
@@ -697,7 +697,7 @@ const Ticketing = () => {
         status: "Active",
       };
 
-      await fetch("http://localhost:5000/api/tickets", {
+      await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(ticketData),

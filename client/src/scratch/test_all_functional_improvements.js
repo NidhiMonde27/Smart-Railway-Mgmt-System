@@ -23,7 +23,7 @@ async function runTests() {
     status: "Active",
   };
 
-  const res1 = await fetch("http://localhost:5000/api/tickets", {
+  const res1 = await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(ticket1Data),
@@ -56,7 +56,7 @@ async function runTests() {
     status: "Active",
   };
 
-  const res2 = await fetch("http://localhost:5000/api/tickets", {
+  const res2 = await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(ticket2Data),
@@ -71,7 +71,7 @@ async function runTests() {
 
   // 3. Verify Admin Ticket Fetch (Manual Verification)
   console.log("\n[TEST 3] Admin Manual Ticket Verification for Ticket 1...");
-  const resFetch = await fetch(`http://localhost:5000/api/tickets/${ticket1Data.ticket_id}`);
+  const resFetch = await fetch(`https://smart-railway-mgmt-system.onrender.com/api/tickets/${ticket1Data.ticket_id}`);
   if (resFetch.ok) {
     const fetched = await resFetch.json();
     console.log("✓ Manual verification found ticket:", fetched.ticket_id);
@@ -86,7 +86,7 @@ async function runTests() {
 
   // 4. Verify QR Verification & Ticket Consumption
   console.log("\n[TEST 4] Admin QR Verification (Consuming Ticket 1)...");
-  const resConsume = await fetch("http://localhost:5000/api/tickets/consume", {
+  const resConsume = await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets/consume", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ticketId: ticket1Data.ticket_id }),
@@ -100,7 +100,7 @@ async function runTests() {
   }
 
   // Verify second consumption attempt gets rejected (Used/Consumed)
-  const resConsume2 = await fetch(`http://localhost:5000/api/tickets/${ticket1Data.ticket_id}`);
+  const resConsume2 = await fetch(`https://smart-railway-mgmt-system.onrender.com/api/tickets/${ticket1Data.ticket_id}`);
   if (resConsume2.ok) {
     const refetched = await resConsume2.json();
     console.log("✓ Refetched consumed ticket status:", refetched.used ? "Used (Correct)" : "Active");

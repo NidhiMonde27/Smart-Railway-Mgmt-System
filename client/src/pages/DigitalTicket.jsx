@@ -54,7 +54,7 @@ const DigitalTicket = () => {
     setAccessDenied(false);
     try {
       const response = await fetch(
-        `http://localhost:5000/api/tickets/${ticketId}?userId=${encodeURIComponent(userId || "")}`,
+        `https://smart-railway-mgmt-system.onrender.com/api/tickets/${ticketId}?userId=${encodeURIComponent(userId || "")}`,
         {
           headers: {
             "x-user-id": userId || "",

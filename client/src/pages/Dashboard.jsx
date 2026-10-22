@@ -173,7 +173,7 @@ const Dashboard = () => {
       setLoadingActivity(true);
       try {
         const res = await fetch(
-          `http://localhost:5000/api/tickets?userId=${encodeURIComponent(currentUserId)}`,
+          `https://smart-railway-mgmt-system.onrender.com/api/tickets?userId=${encodeURIComponent(currentUserId)}`,
           {
             headers: {
               "x-user-id": currentUserId,

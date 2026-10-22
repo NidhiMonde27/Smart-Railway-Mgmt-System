@@ -46,7 +46,7 @@ const ScanPage = () => {
     setSimLoading(true);
     setSimFeedback(null);
     try {
-      const res = await fetch("http://localhost:5000/api/coach-occupancy/scan", {
+      const res = await fetch("https://smart-railway-mgmt-system.onrender.com/api/coach-occupancy/scan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -97,7 +97,7 @@ const ScanPage = () => {
         qrDataParam = JSON.stringify(ticketInput);
       }
 
-      const res = await fetch("http://localhost:5000/api/tickets/verify", {
+      const res = await fetch("https://smart-railway-mgmt-system.onrender.com/api/tickets/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
